@@ -1,1 +1,3 @@
 # ImageProcessing-HW
+
+Bu çalışmada, roboflowdan alınan veri kümesindeki red, blue, green, gray, white sınıflarında bulunan resimleri kullanarak k-means algortimasıyla color segmentation yapılmıştır. İlk olarak her sınıftan 20 resim alınmıştır ve her birisinin histogramı hesaplanmıştır. K-means algoritması için merkez seçim işlemi histogramların bulunduğu dizide buluna rastgele 5 merkez seçtik bu yüzden programı her çağırdığımda farklı başarı sonucu veren bir uygulama gelişti. Ve merkezleri update işlemi 10 kere yapılmıştır. Bundan sebeple başarı oranı değişken bir uygulama haline gelmiştir. Bu hata geliştirilmeye açıktır.
